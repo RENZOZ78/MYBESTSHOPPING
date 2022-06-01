@@ -1,10 +1,12 @@
 $(document).ready(function(){
 
+    // Menu - 
     $('#menu').click(function(){
         $(this).toggleClass('fa-times');
         $('.navbar').toggleClass('nav-toggle');
     });
 
+    //Scroll - menu disparait
     $(window).on('scroll load',function(){
 
         $('#menu').removeClass('fa-times');
@@ -32,7 +34,7 @@ $(document).ready(function(){
 
     });
 
-    //slider qui loop automatiquement
+    //Home - slider qui loop automatiquement
     $('.home-slider').owlCarousel({
         items:1,
         nav:true,
