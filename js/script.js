@@ -6,7 +6,7 @@ $(document).ready(function(){
         $('.navbar').toggleClass('nav-toggle');
     });
 
-    //Scroll - menu disparait
+    //Scroll - menu nav-toggle disparait
     $(window).on('scroll load',function(){
 
         $('#menu').removeClass('fa-times');
