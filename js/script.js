@@ -18,6 +18,7 @@ $(document).ready(function(){
             $('header .header-2').removeClass('header-active');
         }
 
+        //navbar - mettre en surbrillance l'id de chaque section aupassage
         $('section').each(function(){
 
             let height = $(this).height();
