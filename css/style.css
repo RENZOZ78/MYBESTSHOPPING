@@ -10,7 +10,7 @@
     font-family: 'Open Sans', sans-serif;
     margin:0; padding:0;
     box-sizing: border-box;
-    text-transform: capitalize;
+    text-transform: none;
     text-decoration: none;
     transition: all .2s cubic-bezier(.37,1.14,.26,1.24);
    
@@ -96,7 +96,7 @@ header .header-1 .form-container form #search{
 }
 
 header .header-1 .form-container form #search:focus{
-    border-color: var(--blue);;
+    border-color: var(--blue);
 }
 
 header .header-1 .form-container form label{
